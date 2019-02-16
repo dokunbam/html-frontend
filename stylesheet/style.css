@@ -1,0 +1,281 @@
+body {
+    margin: 8px 0 8px 0;
+}
+
+nav #navside {
+    background-image: url("../images/header_skew.png");
+    float: right;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    margin-top: -10px;
+    color: #fff;
+    padding-top: 5px;
+}
+
+#navside a {
+    color: #fff;
+    padding: 20px 40px -10px 0;
+    margin-left: 10px;
+}
+
+nav a img {
+    width: 15%;
+    padding-top: -40px;
+    padding-left: 130px;
+    margin: 0px;
+}
+
+#slider {
+    background-image: url("../banner.jpg");
+    height: 500px;
+    background-size: cover;
+}
+
+#modal {
+    background-color: #ffff;
+    padding: 40px 40px 70px 40px;
+    text-align: center;
+    width: 40%;
+    border: 1px solid #888;
+    border-radius: 10px;
+    margin-left: 30%;
+    position: relative;
+    top: 50px;
+    color: #807777
+}
+
+#slider #modal img {
+    width: 200px;
+    padding-left: 20px;
+}
+
+#modal h2 {
+    font-size: 36px !important;
+    padding-top: 0;
+}
+
+#modal input {
+    border: 1px solid #807777;
+    border-radius: 2px;
+    padding-left: 5px !important;
+    width: 65%;
+    min-height: 50px;
+    float: left;
+    text-align: center;
+    color: #807777
+}
+
+#modal button {
+    background: #FF6C00;
+    color: #fff;
+    float: left;
+    text-transform: capitalize;
+    width: 30%;
+    min-height: 54px;
+    box-shadow: 0;
+    border-radius: 3px;
+    border: 0px;
+}
+
+#bag i {
+    float: right;
+    margin-top: -70px;
+    margin-right: 120px;
+    color: #FF6C00;
+    font-size: 40px;
+}
+
+.howitworks {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.info {
+    text-align: center;
+    border: 1px solid #f7f7f7;
+    box-shadow: 2px 2px 10px #f7f7f7;
+    min-height: 410px;
+    box-shadow: #333333;
+    margin: 10px;
+}
+
+.howitworks .info img {
+    width: 170px;
+    padding-top: 20px;
+    height: 203px;
+}
+
+.howitworks .info h2 {
+    margin: 25px 0;
+    font-weight: bold;
+    color: #FF6C00;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.howitworks .info p {
+    padding: 5px;
+    color: #333333;
+    font-size: 20px;
+}
+
+.browseproducts {
+    width: 80%;
+    margin: auto;
+    background-image: url("../images/prod11_img.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#textinside {
+    width: 60%;
+    position: relative;
+    top: 100px;
+}
+
+#textinside h2 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #504f4f;
+}
+
+#textinside p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #504f4f;
+    margin-left: 15px;
+}
+
+#textinside button {
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #FF6C00;
+}
+
+#heading p {
+    text-align: center;
+    font-size: 40px;
+    color: #222;
+}
+
+.howto {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+.howto .howtoinfo .howto1 img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.howto2 {
+    border: 1px solid #d15A1d;
+    margin: -100px 15px 0 0;
+    padding: 104px 15px 30px 15px;
+    text-align: center;
+    height: 130px;
+}
+
+.howto2 h2 {
+    color: #504f4f;
+    font-size: 20px;
+}
+
+.howto2 p {
+    color: #504f4f;
+    font-size: 20px;
+}
+
+#branding {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0px 15px 0px;
+}
+
+#branding {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#branding h2 {
+    font-size: 40px;
+    color: #504f4f;
+    padding: 30px 0px 30px 0px;
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
+    margin: 1px;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 90%;
+    margin: auto;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+.footer-content .footer-inner-content {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-inner-content p img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 0px 10px -2px 0;
+}
+
+.footer-inner-content .bullet li {
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+.footer-inner-content .bullet i {
+    color: #FF6C00;
+    margin: 3px;
+    font-weight: 5px;
+}
+
+.footer-inner-content .icon li {
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+.footer-inner-content .icon i {
+    margin: 5px;
+    font-weight: 10px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #222;
+    color: #ccc;
+    height: 50px;
+    padding-top: 3px;
+}
